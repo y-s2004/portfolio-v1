@@ -18,17 +18,17 @@ export default function Home() {
 
             <div className="profile-box">
                 <h2>プロフィール</h2>
-                <p>
-                    学生時代にITに興味を持ち、個人でWebアプリの開発を始めました。
-                    現在は業務アプリケーションの開発にも取り組んでいます。
-                </p>
+                    <p>
+                        学生時代にITに興味を持ち、個人でWebアプリの開発を始めました。
+                        現在は業務アプリケーションの開発にも取り組んでいます。
+                    </p>
                 <h2>スキル</h2>
-                <ul>
-                    <li>React / JavaScript</li>
-                    <li>Spring Boot / Java</li>
-                    <li>PostgreSQL / Docker</li>
-                    <li>GitHub / CI/CD</li>
-                </ul>
+                    <ul>
+                        <li>React / JavaScript</li>
+                        <li>Spring Boot / Java</li>
+                        <li>PostgreSQL / Docker</li>
+                        <li>GitHub / CI/CD</li>
+                    </ul>
             </div>
         </div>
     )
