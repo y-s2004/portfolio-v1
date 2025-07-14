@@ -1,71 +1,72 @@
 /* ヘッダー右上ボタン */
 .header-controls {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  gap: 10px;
-  z-index: 1000;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
 }
 
 .header-controls button {
-  width: 48px;
-  height: 48px;
-  font-size: 20px;
-  border: none;
-  border-radius: 12px;
-  background-color: white;
-  color: black;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 /* メニューオーバーレイ */
 .menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.85);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  z-index: 999;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
 }
 
 .menu-overlay.show {
-  opacity: 1;
-  pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .menu-logo {
-  width: 120px;
-  height: auto;
-  margin-bottom: 30px;
+    width: 120px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 /* HeaderLink.css */
 .header-link {
-  font-size: 2.25rem; /* text-4xl */
-  font-weight: bold;
-  border-bottom: 2px solid transparent;
-  transition: border 0.3s ease;
-  display: flex;
-  gap: 0.5rem;
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s ease;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .header-link:hover {
-  border-bottom-color: #555; /* hover:border-gray-700 */
+    border-bottom-color: #555; /* hover:border-gray-700 */
 }
 
 .menu-logo {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
