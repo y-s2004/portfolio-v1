@@ -28,7 +28,6 @@
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,17 +48,6 @@
   width: 120px;
   height: auto;
   margin-bottom: 30px;
-}
-
-/* ダークテーマ対応 */
-[data-theme="dark"] .menu-overlay {
-  background-color: rgba(0, 0, 0, 0.85);
-  color: white;
-}
-
-[data-theme="dark"] .header-controls button {
-  background-color: #222;
-  color: white;
 }
 
 /* HeaderLink.css */
